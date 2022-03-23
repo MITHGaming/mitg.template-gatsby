@@ -28,6 +28,7 @@ No plugins installed, great for advanced users.
 - 🚫 **lint-staged** - Run linters against staged git files
 - 👷 **PR Workflow** - Run Type Check & Linters on pull requests
 - 🗂 **Root import** - Import folders and files using the `@` prefix.
+- ✒ **Stitches** - Use to style components
 
 ## 🚀 Getting started
 
