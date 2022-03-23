@@ -7,8 +7,8 @@
 
   <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/gatsby-starter-ts?style=for-the-badge&color=24B36B&labelColor=000000">
 
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
+  <a href="https://www.linkedin.com/in/guilherme-fontes-amorim/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Guilherme Fontes Amorim" />
   </a>
 </p>
 
@@ -31,13 +31,7 @@ No plugins installed, great for advanced users.
 
 ## 🚀 Getting started
 
-The best way to start with this template is using the Gatsby CLI.
-
-```
-npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
-```
-
-If you prefer you can clone this repository and run the following commands inside the project folder:
+Clone this repository and run the following commands inside the project folder:
 
 > By default, this starter uses Yarn, but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
 
@@ -58,7 +52,3 @@ To view the project you can open `http://localhost:8000`.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
-
----
-
-Made with ♥ by João Pedro Schmitz
