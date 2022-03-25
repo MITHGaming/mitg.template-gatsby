@@ -21,3 +21,35 @@ export const wrapRootElement = ({ element }) => (
 export const wrapPageElement = ({ element }) => (
   <LayoutWrapper>{element}</LayoutWrapper>
 );
+
+export const onPreRenderHTML = ({
+  getHeadComponents,
+  replaceHeadComponents,
+}) => {
+  if (process.env.NODE_ENV !== 'production') {
+    return;
+  }
+
+  const transformedHeadComponents = getHeadComponents().map((node) => {
+    if (node.type === 'style') {
+      const globalStyleHref = node.props['data-href'];
+
+      if (globalStyleHref) {
+        return (
+          <link
+            href={globalStyleHref}
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+          />
+        );
+      }
+
+      return node;
+    }
+
+    return node;
+  });
+
+  replaceHeadComponents(transformedHeadComponents);
+};
