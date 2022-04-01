@@ -5,6 +5,12 @@ module.exports = {
     author: `@kamity`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-next-seo`,
+      options: {
+        titleTemplate: `MITG | %s`,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
     {
